@@ -1,8 +1,6 @@
 import mongoose from "mongoose";
 
-
   const OrderItem = new mongoose.Schema({
-
     cardId : {
         type : String,
         required: true
@@ -15,7 +13,6 @@ import mongoose from "mongoose";
         type : Number,
         required: true
     },
-
 });
 
 const DeliveryAddress = new mongoose.Schema({
